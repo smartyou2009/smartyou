@@ -192,7 +192,7 @@ h6 {
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #0774c2;
+  background:#7fd67f;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -202,7 +202,7 @@ h6 {
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #04ccfb;
+  background:#18d26e;
 }
 
 .navbar .dropdown ul {
@@ -421,11 +421,11 @@ h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #0774c2;
+  background: #7fd67f;
 }
 
 #hero .btn-get-started:hover {
-  background: #04ccfb;
+  background: rgb(35, 204, 23);
 }
 
 #hero .icon-boxes {
