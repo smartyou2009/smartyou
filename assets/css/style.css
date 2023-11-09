@@ -453,6 +453,7 @@ h6 {
   color: #0774c2;
   transition: 0.3s;
 }
+
 #hero .icon-box .title1 a {
   color: #04ccfb;
   transition: 0.3s;
@@ -481,6 +482,7 @@ h6 {
 #hero .icon-box:hover .title a {
   color: #04ccfb;
 }
+
 #hero .icon-box:hover .title1 a {
   color: white;
 }
@@ -754,6 +756,7 @@ section {
   height: 100vh;
   transform: translate(-50%, -50%);
 }
+
 #video-bg {
   position: absolute;
   top: 100%;
@@ -768,7 +771,7 @@ section {
 
 .content {
   position: relative;
-  z-index: 10; 
+  z-index: 10;
   padding: 25px 5px 25px 5px;
 }
 
@@ -785,16 +788,16 @@ section {
 
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
-  .bg-overlay{
+  .bg-overlay {
     margin-top: -20px;
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
 
-  .bg-overlay{
+  .bg-overlay {
     margin-top: -5px;
   }
 }
@@ -815,17 +818,19 @@ section {
   font-size: 14px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 35px;
-  border-radius: 5px;
+  padding: 15px;
+  border-radius: 30px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   color: #fff;
+  background-color: #7fd67f;
+  width: 12rem;
 }
 
 .cta .cta-btn:hover {
-  background: #fff;
-  color: #04ccfb;
+  background: none;
+  /* color: #04ccfb; */
 }
 
 
