@@ -429,7 +429,7 @@ h6 {
 }
 
 #hero .icon-boxes {
-  margin-top: 100px;
+  margin-top: -100px;
 }
 
 #hero .icon-box {
