@@ -30,37 +30,16 @@
     <link href="assets/css/style.css" rel="stylesheet">
   
 <style>
-  body{
-    
-  }
+ .fixed-top{
+  box-shadow: 4px 4px 20px rgb(172, 169, 169);
+  
+ }
+ .section-title h2{
+  margin-top: 5rem;
+ }
 </style>
 
 <body>
-
-
-
-
-  <?php
-  if ($_SERVER["REQUEST_METHOD"] == "POST") {
-      $name = $_POST["name"];
-      $email = $_POST["email"];
-      $message = $_POST["message"];
-  
-      $to = "adeblessinme4u@gmail.com";
-      $subject = "User Information";
-      $headers = "From: $email";
-  
-      $email_body = "Name: $name\n";
-      $email_body .= "Email: $email\n";
-      $email_body .= "Message:\n$message";
-  
-      if (mail($to, $subject, $email_body, $headers)) {
-          echo "Message sent successfully!";
-      } else {
-          echo "Message could not be sent. Please try again later.";
-      }
-  }
-  ?>
 
 
 
