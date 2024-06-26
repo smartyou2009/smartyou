@@ -69,6 +69,16 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
+
+
+#header-t {
+  transition: all 0.5s;
+  background: #fff;
+  z-index: 997;
+  padding: 15px 0;
+  border-bottom: 1px solid #e6f2fb;
+}
 #header {
   transition: all 0.5s;
   background: #fff;
@@ -80,6 +90,16 @@ h6 {
 #header.header-scrolled {
   border-color: #fff;
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+}
+
+#header-t .logo {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
 }
 
 #header .logo {
@@ -96,10 +116,18 @@ h6 {
   color: #16507b;
 }
 
+#header-t .logo img {
+  max-height: 40px;
+}
 #header .logo img {
   max-height: 40px;
 }
 
+@media (max-width: 992px) {
+  #header-t .logo {
+    font-size: 28px;
+  }
+}
 @media (max-width: 992px) {
   #header .logo {
     font-size: 28px;
