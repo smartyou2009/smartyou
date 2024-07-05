@@ -1338,24 +1338,30 @@ section {
   }
 
   .form .form-control{
-    width:100%;
+    width:190%;
   }
 }
 
 
 @media screen and (max-width:500px){
 
+  #contact-form{
+    background: #6ab7ee;
+    width:118% ;
+    /* margin-left: -14px; */
+  }
 
   .form{
     /* background: firebrick; */
     position: relative;
-    width: 160%;
+    width: 125%;
     gap: 20px;
-    margin-left: -46px ;
+    /* margin-left: -46px ; */
   }
 
   .form .form-control{
-    width:100%;
+    width:125%;
+    margin-left: -7px;
   }
 
 
@@ -1397,3 +1403,26 @@ section {
   cursor: pointer;
 }
 }
+
+
+
+
+/* @media screen and (max-width:450px){
+
+  #contact-form{
+    background: green;
+    width:120% ;
+    margin-left: -14px;
+  }
+
+  .form{
+    position: relative;
+    width: 120%;
+    gap: 20px;
+  }
+
+  .form .form-control{
+    width:120%;
+    margin-left: -7px;
+  }
+} */
